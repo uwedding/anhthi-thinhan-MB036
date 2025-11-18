@@ -63,7 +63,7 @@ list.forEach((item) => {
 // Lưu form vào GG sheet
 
 const GOOGLE_SCRIPT_URL_THAM_DU =
-  "https://script.google.com/macros/s/AKfycbzSk9xEq5D_q-dvNaK1Cu0DGwZ7jLzvntYQwpePFgISenIGnOHrxJJfpgO4eT_jSJoanA/exec";
+  "https://script.google.com/macros/s/AKfycbyOvt1Mhx2YXaLZWWJK3ZDvgDNWlhxBS6w3zkr1y7-HggXJVV0yvAQWvQL1MVCTWKMHhw/exec";
 
 const closeIds = ["w-ysykddk8"];
 const formIds = ["3jnfqzjo"];
