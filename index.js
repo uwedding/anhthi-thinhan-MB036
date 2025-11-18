@@ -273,10 +273,10 @@ setInterval(function () {
 window.addEventListener("DOMContentLoaded", function () {
   // Lấy tham số name từ URL
   const params = new URLSearchParams(window.location.search);
-  const name = params.get("name");
+  const name = params.get("name") || params.get("n");
   // Hiển thị vào div PARAGRAPH94 nếu có giá trị
   if (name) {
-    const el = document.querySelector("#w-amfdze1w .name");
+    const el = document.querySelector("#w-xule1twx .name");
     if (el) el.textContent = name;
   }
 });
